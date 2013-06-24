@@ -26,6 +26,8 @@
 		3FE4A50717780F4900DAF30A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4A50517780F4900DAF30A /* InfoPlist.strings */; };
 		3FE4A50917780F4900DAF30A /* Photo_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4A50817780F4900DAF30A /* Photo_BrowserTests.m */; };
 		3FE4A5141778107200DAF30A /* MYPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4A5131778107200DAF30A /* MYPersistence.m */; };
+		3FE4A5171778198B00DAF30A /* MYMasterCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4A5161778198B00DAF30A /* MYMasterCollectionViewController.m */; };
+		3FE4A51A17781FCE00DAF30A /* MYCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4A51917781FCE00DAF30A /* MYCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		3FE4A50817780F4900DAF30A /* Photo_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BrowserTests.m; sourceTree = "<group>"; };
 		3FE4A5121778107200DAF30A /* MYPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPersistence.h; sourceTree = "<group>"; };
 		3FE4A5131778107200DAF30A /* MYPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPersistence.m; sourceTree = "<group>"; };
+		3FE4A5151778198B00DAF30A /* MYMasterCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMasterCollectionViewController.h; sourceTree = "<group>"; };
+		3FE4A5161778198B00DAF30A /* MYMasterCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMasterCollectionViewController.m; sourceTree = "<group>"; };
+		3FE4A51817781FCE00DAF30A /* MYCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCustomCell.h; sourceTree = "<group>"; };
+		3FE4A51917781FCE00DAF30A /* MYCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,10 @@
 				3FE4A5121778107200DAF30A /* MYPersistence.h */,
 				3FE4A5131778107200DAF30A /* MYPersistence.m */,
 				3FE4A4E817780F4900DAF30A /* Main.storyboard */,
+				3FE4A51817781FCE00DAF30A /* MYCustomCell.h */,
+				3FE4A51917781FCE00DAF30A /* MYCustomCell.m */,
+				3FE4A5151778198B00DAF30A /* MYMasterCollectionViewController.h */,
+				3FE4A5161778198B00DAF30A /* MYMasterCollectionViewController.m */,
 				3FE4A4EE17780F4900DAF30A /* MYMasterViewController.h */,
 				3FE4A4EF17780F4900DAF30A /* MYMasterViewController.m */,
 				3FE4A4F117780F4900DAF30A /* MYDetailViewController.h */,
@@ -274,9 +284,11 @@
 			files = (
 				3FE4A4F017780F4900DAF30A /* MYMasterViewController.m in Sources */,
 				3FE4A5141778107200DAF30A /* MYPersistence.m in Sources */,
+				3FE4A51A17781FCE00DAF30A /* MYCustomCell.m in Sources */,
 				3FE4A4F317780F4900DAF30A /* MYDetailViewController.m in Sources */,
 				3FE4A4E717780F4900DAF30A /* MYAppDelegate.m in Sources */,
 				3FE4A4ED17780F4900DAF30A /* Photo_Browser.xcdatamodeld in Sources */,
+				3FE4A5171778198B00DAF30A /* MYMasterCollectionViewController.m in Sources */,
 				3FE4A4E317780F4900DAF30A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
